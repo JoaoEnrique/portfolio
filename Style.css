@@ -1,0 +1,499 @@
+
+body
+{
+    overflow-x: hidden;/*tirar barra de rolagem*/
+}
+                
+.corpo/*Corpo fundo azul rgb(243, 247, 252)*/
+{ 
+    font-family: Helvetica;
+    background-color: rgb(243, 247, 252);
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
+} 
+     
+    
+/*ESPAÇO DO LOGO*/                            
+.começo/*Parte azul do começo*/
+{  
+    margin-top: -10px;
+    background-color: #002060;
+    margin-left: -1%;
+    margin-right: -1%;
+    padding: 1px;
+    position: relative;
+    z-index: 999;
+}
+                        
+.Div-Nome
+{
+    line-height: 10%;                
+    align-items: center;
+    text-align: center;
+
+}
+    
+        
+.name/*deixar o logo JEB TECH com efeito*/
+{
+    line-height:60px;
+    margin-top:10px;
+    padding-top:10px;
+    background-color: white;
+    font-weight: 700;
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, #002060 5%, rgba(255,255,255,0.5) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: shine 3s ease-in-out infinite;
+    transition: 1s;
+    padding-bottom: -10px;
+}
+                  
+@keyframes shine 
+{
+    0% { background-position: 0%; }
+    100% { background-position: -120%; }
+}
+    
+.name:hover, .Nome-Credito:hover/*Logo em texto JEB TECH*/
+{
+    text-shadow:0px 0px 15px rgb(243, 247, 252);
+} 
+                
+.name::selection
+{
+    background: white;
+    color: #00af!important;
+}
+    
+.text/*paragrafos*/
+{
+    text-align: Justify;
+    line-height: 30px;
+    font-size: 20px;
+    padding-top: 0%;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+}
+    
+
+a.link /*links*/
+{
+    font-weight: bold;
+    color: #00af;
+    text-decoration: none;
+}
+    
+a.link:hover /*links*/
+{
+    color: #002060;
+           
+}
+    
+.credito /*Div azul no final*/
+{
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #002060;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: -1%;
+}
+                
+                
+.name
+{
+    font-family: Rockwell;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+    
+
+.titulo{
+    font-family:  Calibri;
+    color: #00af;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 0%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+}
+
+    
+/* MENU DE NAVEGACAO*/
+.menu
+{     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style:none;
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+                                 
+
+.menu li  ul
+{
+    position:absolute;
+    top: 28px;
+    left:0px;
+    background-color:#fff;
+    display:none;
+}
+    
+.menu li a{
+    background:#002060; 
+    color:rgb(255, 255, 255);
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    transition: 0.3s;
+}
+    
+.menu li a:hover
+{
+    color: aqua;
+    transform:scale(1.2);
+}
+
+.menu::selection, li::selection, a::selection
+{
+    background: none;
+    color: none;
+}                
+    
+.menu li
+{
+    posItion:relative; 
+    float:left;
+}
+    
+.menu li:hover ul, .menu li:hover ul{display:block;}
+                                                    
+.menu li ul li
+{
+    margin-left: -41px;
+    display:block;
+    width: 125px;
+}
+/*MENU DE NAVEGACAO*/
+
+
+.Nome-Credito
+{
+    font-family: Rockwell;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 1s;
+    transform:scale(1.1);
+}
+
+
+
+.destaque{/*texto em destaque*/
+    text-decoration: none;
+    color: #002060;
+    font-weight: bold;
+        
+}
+/*FORMULARIO*/
+
+#Li-Link{
+    display: block !important;
+}
+
+    
+img.links{/*Deixar logo branco*/
+transition: transform 1s;
+}
+    
+img.links:hover{/*Deixar logo branco*/
+    filter: invert(100%);
+    transform:scale(1.2);
+}
+
+.baixar
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: 1px solid #00af;
+    color: rgb(243, 247, 252);
+    background-color: #00af; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s all ease;
+    box-shadow: 0px 7px 20px 0px #002060a8;    
+}
+
+.baixar:hover
+{
+    color: black;
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.baixar-Certificado/**/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: red; 
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.Efeito-Imagem/*Certificados*/
+{
+    transition: -webkit-transform 1s;
+}
+
+img.Efeito-Imagem:hover/*Somente Certificados em imagens  hover*/
+{
+    filter: brightness(1.4);
+    -webkit-transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+.Efeito-Imagem:hover/*Efeitos no certificado em PDF*/
+{
+    cursor: zoom-in;
+    -webkit-transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+        
+.formulario
+{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #007ACC;
+}
+        .formulario p{
+            width: 100%;
+            font-size: 1.5em;
+        }
+        .field{
+            width: 100%;
+            margin: 15px 0;
+        }
+        .field label, 
+        .field span{
+            padding-left: 10px;
+            font-size: 1.1em;
+            display: block;
+            width: 100%;
+        }
+        .radiobox label{
+            width: auto;
+            display: inline-block;
+        }
+        input[type=text],
+        input[type=email],
+        textarea{
+            width: 100%;
+            padding-left: 10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            border: 1px solid #007ACC;
+            outline: none;
+        }
+        
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+textarea::placeholder
+{
+color: #007ACC;     
+}
+        
+input#nao
+{
+    margin-left: 30px;
+}
+
+textarea
+{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+.enviar/*botao do formulario enviar*/
+{
+    display: block;
+    background-color:  #00AF;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+        
+.enviar:hover
+{
+    background: #007ACC;
+            
+}
+        
+.red{/*texto em vermelho*/
+    color: red;
+}
+.borda{
+    border:1px solid rgb(0, 0, 255);
+    padding: 1px;
+    background-color: #fff;
+}
+
+.Foto-Joao{/*Foto da página index*/
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    margin-right: 25px;
+    border-radius: 200px;
+}
+
+.Foto-Joao:hover{/*Aplicar efeito na imagem*/
+    box-shadow:0px 0px 15px rgba(107, 107, 107, 0.822);
+    filter: brightness(1.1);
+}
+
+p::selection, w::selection, a::selection, img::selection, .sub-titulo, .titulo::selection{/*Seleção de texto e imagem*/
+    color:#fff;
+    background: black;
+}
+
+.HTML-css/*Imagem HTML*/
+{
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 8px groove rgb(0, 0, 255);
+    margin: 10px;
+}
+
+.Sub-Titulo /*Pequeno titulo nas paginas*/
+{
+    color: rgba(0, 0, 255, 0.171);
+    text-align: center;
+    font-size: 25px;
+}
+
+.Menu/*Memu para celular*/
+{
+    filter: invert(100%);
+}
+
+#none-PC
+{
+    display: none;
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 900px)/*ADAPTAÃ‡ÃƒO PARA DISPOSITIVOS*/
+{
+    .text/*paragrafos*/
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .Foto-Joao/*Foto da página index*/
+    {
+        width: 150px
+    }
+    
+    .name/*deixar o logo JEB TECH com efeito*/
+    {
+        font-family: Rockwell;
+        font-size: 35px;
+    }
+    
+    .Sub-Titulo
+    {
+        font-size: 15px;
+    }
+    
+    .HTML-css
+    {
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    .começo
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    #certificado
+    {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .baixar
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .menu li ul li
+    {
+        z-index: 20;
+    }
+    
+    #none-PC
+    {
+        display: block;
+    }
+
+    #none-CELL
+    {
+        display: none;
+    }
+
+    .top
+    {
+        top: 10px;
+    }
+
+    .menu li a
+    {
+        top: 50px;
+    position: initial;
+    }

@@ -1,0 +1,175 @@
+
+    body{ /*Cor de fundo da página*/
+        background-color: rgb(243, 247, 252);
+        }
+
+        .blue{/*Index*/
+            box-shadow:0px 0px 15px rgb(0, 0, 0);
+            border-radius: 2px;
+            padding-bottom: 5px;
+            font-family: Rockwell;
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+            background-color: #002060;
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-right: 80px;
+            border: 0px 0px 20px 20px;
+        }    
+
+        .Final-Azul{
+            border-radius: 2px;
+            font-size: 70px;
+            background-color: #002060;
+            margin-top: 80px;
+            margin-left: 0px;
+            margin-right: 0px;
+            border: 0px 0px 20px 20px;
+        }
+
+    .white{/*Corpo do curriculo*/
+        margin-bottom: 50px;
+        border-radius: 5px;
+        padding: 5px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        margin-top: 0px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }    
+
+    .aqua{ /*Tiraq azul*/
+        background-color: #00ffff;
+        height: 8px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .nome{/*Nome*/
+        font-size: 40px;
+        font-family: verdana;
+    }
+    .texto{
+        line-height: 10px;
+        font-size: 20px;
+        font-family: verdana;
+    }
+
+    .texto2{
+        line-height: normal;
+        color: rgb(0,32,96);
+        font-weight: 600;
+        font-size: 15px;
+        font-family: monospace;
+        line-height: normal;
+    }
+
+    .link{/*Cor dos links*/
+        text-decoration: none;
+        color: #002060;
+    }
+
+    aside{/*Deixa texto na lateral*/
+        width: 40%;
+        float: right;
+    }
+
+    .titulo{
+        line-height: 0px;
+        color: rgb(0,32,96);
+        font-weight: 700;
+        font-size: 30px;
+        font-family: monospace;
+    }
+
+    .info{
+        color: rgb(0,32,96);
+        font-weight: 600;
+        font-size: 20px;
+        font-family: monospace;
+    }
+    .texto3{
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+        font-size: 15px;
+        font-family: verdana;
+    }
+
+    .linha{
+        border: 1px solid;
+        color:blue;
+    }
+
+    .Div-Baixar{
+        box-shadow:0px 0px 15px rgb(0, 0, 0);
+        border-radius: 2px;
+        text-align: center;
+        background-color:green;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding: 20px;        
+    }
+
+    .Div-Baixar:hover{
+        box-shadow:0px 0px 15px rgba(0, 0, 0, 0.719);
+        background-color:rgb(0, 105, 0);
+    }
+
+
+    
+
+    @media screen and (max-width: 900px)/*ADAPTAÃ‡ÃƒO PARA DISPOSITIVOS*/
+{
+    .blue/*Index*/
+    {
+        padding: 10px;
+        font-size: 30px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .Final-Azul
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .aqua
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .white
+    {
+        margin-left: 1%;
+        margin-right: 1%;        
+    }
+    
+    .texto
+    {
+        font-size: 10px;
+    }
+    
+    #img-curriculo
+    {
+        height: 15px;
+    }
+    
+    .titulo
+    {
+        font-size: 15px;
+    }
+    
+    .info
+    {
+        font-size: 10px;
+    }
+    
+    .Div-Baixar
+    {
+        margin-left: 1%;
+        margin-right: 1%;        
+    }
+}
