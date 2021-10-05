@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Máquina de Escrever</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript">
+        .container{
+    background-color: #000;
+}
+.titulo-principal{
+    max-width: 480px;
+    text-align: center;
+    margin: 60px auto;
+    font-family:'Courier New', Courier, monospace;
+    color: #fff;
+}
+.titulo-principal:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+      </script>
+</head>
+<body class="container">
+    <h1 class="titulo-principal">Efeito Máquina de Escrever com JavaScript, utilize em seus projetos esse efeito bacana!</h1>
+</body>
+</html>

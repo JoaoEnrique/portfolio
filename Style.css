@@ -1,0 +1,447 @@
+body
+{
+    overflow-x: hidden;/*tirar barra de rolagem*/
+}
+                
+.corpo/*Corpo fundo azul rgb(243, 247, 252)*/
+{ 
+    font-family: Helvetica;
+    background-color: rgb(243, 247, 252);
+    padding-top: 0%;
+    margin-top: 0%;
+    min-width: 100%;
+} 
+     
+    
+.começo/*Parte azul do começo*/
+{  
+    margin-top: -10px;
+    background-color: #002060;
+    min-width: 100%;
+    padding: 1px;
+    position: relative;
+    z-index: 999;
+}
+                        
+.Div-Nome
+{
+    line-height: 10%;                
+    align-items: center;
+    text-align: center;
+
+}
+    
+        
+.name/*deixar o logo JEB TECH com efeito*/
+{
+    line-height:60px;
+    margin-top:10px;
+    padding-top:10px;
+    background-color: white;
+    font-weight: 700;
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, #002060 5%, rgba(255,255,255,0.5) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: shine 3s ease-in-out infinite;
+    transition: 1s;
+    padding-bottom: -10px;
+}
+                  
+@keyframes shine 
+{
+    0% { background-position: 0%; }
+    100% { background-position: -120%; }
+}
+    
+.name:hover, .Nome-Credito:hover/*Logo em texto JEB TECH*/
+{
+    text-shadow: 20px 19px 2px rgb(255 255 255 / 32%);
+} 
+    
+.text/*paragrafos*/
+{
+    text-align: Justify;
+    line-height: 30px;
+    font-size: 20px;
+    padding-top: 0%;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+}
+  
+
+.carousel-control-next, .carousel-control-prev
+{
+    background:rgb(0, 0, 0);
+    width: 5%!important;
+}
+
+a.link /*links*/
+{
+    padding: none;
+    font-weight: bold;
+    color: #00af;
+    text-decoration: none;
+}
+    
+a.link:hover /*links*/
+{
+    color: aqua;
+    text-decoration: none;
+}
+    
+.credito /*Div azul no final*/
+{
+    top: 0px!important;
+    background-color: #002060;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: -1%;
+    box-shadow: 4px -20px 20px 20px #002060;
+}
+                
+.tamanho
+{
+    width: 200px!important;
+    height: 100px!important; 
+  }
+         
+.super-titulo
+{
+    margin-top: 50px;
+    color:#002060;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+.name
+{
+    font-family: Rockwell;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+    
+
+.titulo
+{
+    font-family:  Calibri;
+    color: #00af;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+}
+
+    
+/* MENU DE NAVEGACAO*/
+.fixed-top
+{/*Menu*/
+    background: #002060!important;
+    font-weight: 500;
+}
+
+.dropdown-item
+{/*Menu*/
+    font-weight: 500!important;
+}
+
+.dropdown-item:hover, .dropdown-item.active, .dropdown-item:active, .exampleFormControlSelect1:hover
+{/*Menu*/
+    background: #002060!important;
+    color: #fff!important;
+}
+
+
+/*MENU DE NAVEGACAO*/
+
+
+.Nome-Credito
+{
+    font-family: Rockwell;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 1s;
+    transform:scale(1.1);
+}
+
+
+
+.destaque{/*texto em destaque*/
+    text-decoration: none;
+    color: #002060;
+    font-weight: bold;
+        
+}
+/*FORMULARIO*/
+
+#Li-Link{
+    display: block !important;
+}
+    
+img.links{/*Deixar logo branco*/
+    transition: transform 1s;
+    background: #fff;
+    box-shadow: -4px 5px 0px 0px aqua;
+    margin: 5px;
+}
+    
+img.links:hover{/*Deixar logo branco*/
+    filter: invert(100%);
+    transform:scale(1.2);
+    box-shadow: none;
+}
+
+.baixar
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: 1px solid #00af;
+    color: rgb(243, 247, 252);
+    background-color: #00af; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s all ease;
+}
+
+.baixar:hover
+{
+    color: black;
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+   box-shadow: 7px 5px 0px 0px #00af;
+}
+
+.baixar-Certificado/*Botão de baixar o certificado*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.baixar-Certificado:hover
+{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+
+
+.Efeito-Imagem/*Certificados*/
+{
+    transition: -webkit-transform 1s;
+}
+
+img.Efeito-Imagem:hover/*Somente Certificados em imagens  hover*/
+{
+    filter: brightness(1.4);
+    -webkit-transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+.Efeito-Imagem:hover/*Efeitos no certificado em PDF*/
+{
+    cursor: zoom-in;
+    -webkit-transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+textarea/*Campo de mensagem da pagina contato*/
+{
+    resize: none!important;
+    height: 213px!important;
+}
+
+.enviar/*botao de ver mais experiencias*/
+{
+    background-color:  #00AF;
+    color: white;
+    box-shadow: 7px 5px 0px 0px #000;
+}
+
+.enviar-form/*Botao de enviar no formulario*/
+{
+    display: block;
+    background-color: #00AF;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 7px 5px 0px 0px #000;
+    margin-bottom: 30px;
+}
+        
+.enviar:hover, .enviar-form:hover
+{
+    background: #000;
+    box-shadow: 7px 5px 0px 0px #00AF;
+    color: #fff;         
+}
+        
+.red
+{/*texto em vermelho*/
+    color: red;
+}
+.borda{
+    border:1px solid rgb(0, 0, 255);
+    padding: 1px;
+    background-color: #fff;
+}
+
+.Foto-Joao
+{/*Foto da página index*/
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    margin-right: 25px;
+    border-radius: 200px;
+}
+
+.Foto-Joao:hover
+{/*Aplicar efeito na imagem*/
+    box-shadow:0px 0px 15px rgba(107, 107, 107, 0.822);
+    filter: brightness(1.1);
+}
+
+*::selection, p::selection, w::selection, a::selection, img::selection, .sub-titulo, .titulo::selection{/*Seleção de texto e imagem*/
+    color:#fff;
+    background: black;
+}
+
+.HTML-css/*Imagem HTML*/
+{
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 8px groove rgb(0, 0, 255);
+    margin: 10px;
+}
+
+.Sub-Titulo /*Pequeno titulo nas paginas*/
+{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+.Menu/*Memu para celular*/
+{
+    filter: invert(100%);
+}
+
+#none-PC
+{
+    display: none;
+}
+
+.sobre
+{
+    margin-bottom: 50px; 
+}
+
+.curriculum, .contato, .experiencia, div.link, .certificado, .corpo /*paginas*/
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.experiencia, .contato, .sobre
+{
+    background-color: rgb(243, 247, 252);/*Azul do Fundo*/
+}
+
+.curriculum, .certificado
+{
+    background-color: #FFF;
+}
+
+
+html 
+{
+  scroll-behavior: smooth;
+}
+ 
+:target 
+{
+  scroll-margin-top: .8em;
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 900px)/*ADAPTAÃ‡ÃƒO PARA DISPOSITIVOS*/
+{
+    .text/*paragrafos*/
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .Foto-Joao/*Foto da página index*/
+    {
+        width: 150px
+    }
+    
+    .name/*deixar o logo JEB TECH com efeito*/
+    {
+        font-family: Rockwell;
+        font-size: 35px;
+    }
+    
+    .Sub-Titulo
+    {
+        font-size: 15px;
+    }
+    
+    .HTML-css
+    {
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    .começo
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    #certificado
+    {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .baixar
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    @media screen and (max-width: 480px)/*ADAPTAÃ‡ÃƒO PARA DISPOSITIVOS*/
+{
+    .cel-none{
+        display: none;
+    } 
+}
