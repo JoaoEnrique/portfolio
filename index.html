@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,11 +12,9 @@
         <link href="Css/CSS.css" rel="stylesheet"><!--ARQUIVO css-->
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     </head>
     <!--PRIMEIRA PÁGINA (CABEÇALHO)-->
@@ -56,7 +55,7 @@
           </nav>
               <header>
               <div style="margin-bottom:0">
-                <h1 id="titulo" class="name text-center"></h1>
+                <h1 id="titulo" class="name text-left"></h1>
                 <h6 class="text-left">Desenvolvedor de Sistemas, Front-End, Back-End e Design Digital. </h6>
 
                 
@@ -96,11 +95,17 @@
 
 <!--SEGUNA PÁGINA (SOBRE)-->
               <div class="sobre" id="section1"><!---PÁGINA DE SOBRE--->
-                  <h3 class="super-titulo">Sobre</h3><br/>
+                  <h3 class="super-titulo"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg> Sobre <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg></h3><br/>
                   <p class="text">
-                      <a href="Certificados.html">
-                      <img class="Foto-Joao" src="Imagens/Joao Enrique.jpg" align="left" width="300"></a>
-                      <w class="Sub-Titulo">Sobre João Enrique</w><br/>Sou o <w class="destaque">João Enrique</w>, tenho 16 anos, 
+                      
+                      <img class="Foto-Joao" src="Imagens/Joao Enrique.jpg" align="left" width="300">
+                      Sou o <w class="destaque">João Enrique</w>, tenho 16 anos, 
                       estudo <w class="destaque">Desenvolvimento de Sistema</w> na Etec Zona Leste.
                   </p>
       
@@ -118,7 +123,7 @@
                   <p class="text">
                       Irei seguir a área que estou estudando <w class="destaque">Desenvolvimento de Sistemas</w>, e me aprofundar muito na tecnologia, que hoje 
                       é a minha 
-                      paixão, sempre pesquiso mais sobre programação e estou desenvolvi uma página Web pessoal.
+                      paixão, sempre pesquiso mais sobre programação.
                   </p><br/><br/>
               </div>
  
@@ -127,7 +132,13 @@
           
       <div class="container cel-none" id="section2">
       
-          <h3 class="super-titulo">Curriculum</h3>
+          <h3 class="super-titulo"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+            <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+          </svg> Curriculum <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+            <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+          </svg></h3>
           <div class="row white"> 
               <div class="col blue">João Enrique Barbosa Santos Alves</div><!--TITULO DO CURRICULO-->
       
@@ -386,14 +397,14 @@
       <br/>
       <div class="container">
           <div class="row">
-              <div class="col Div-Baixar">
-              <a class="baixar-Certificado" href="Certificados/Currículo - João Enrique.pdf" download="Certificados/Currículo - João Enrique.pdf">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                </svg> Baixar Curriculo
-              </div></a>
-          </div>
+            <button data-toggle="modal" data-target="#Baixar" role="button" class="btn baixar container btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg> Baixar Curriculo</button>
+            </div> 
+      </div>
+
+ 
           </div>        
               
               <br/><br/><br/><br/>
@@ -403,7 +414,13 @@
 <!--TERCEIRA PÁGINA (EXPERIENCIA)-->
               <div class="experiencia" id="section3-1"><div id="section3-2"></div><div id="section3-3"></div><div id="section3-4"></div><div id="section3-5"></div>
                   <div class="container marketing">
-                      <h3 class="super-titulo">Experiências</h3><br/><br/>          
+                      <h3 class="super-titulo"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                      </svg> Experiências <svg xmlns="http://www.w3.org/2000/svg" widtsh="40" height="70" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                      </svg></h3><br/><br/>          
                           <div class="row">
                               <div class="col-lg-4">               
                                   <img class="rounded-circle" src="Imagens/codigo.jpg" alt="HTML/CSS" width="140" height="140">
@@ -446,7 +463,11 @@
         
 <!--QUARTA PÁGINA (LINKS)-->
               <div class="link" id="section4"><br/><br/><!---PÁGINA DE LINKS--->
-                  <h3 class="super-titulo">links</h3>
+                  <h3 class="super-titulo"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+                    <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                  </svg> links <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+                    <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                  </svg></h3>
       
                   <p class="text">
                       Sou o <a class="link" href="https://www.Linkedin.com/in/joãoenrique">João Enrique</a>, Desenvolvedor da página. Esses são links das minhas 
@@ -454,33 +475,38 @@
                   </p>
       
                   <p class="text link links div-link" id="Li-Link">
+                      <a class="link" href="https://github.com/JoaoEnrique">
+                          <img class="links" src="Imagens/github.png" height=30/>
+                          Git Hub
+                      </a><br/>
+
                       <a class="link div-link" href="https://www.instagram.com/joao.enriquesantosalves/">
-                          <img class="links" src="Imagens/Instagram.jpg" alt="Instagram João Enrique" title="Instagram João Enrique" height=30/>
+                          <img class="links" src="Imagens/Instagram.jpg" height=30>
                           Instagram
                       </a><br/>
       
                       <a class="link" href="https://www.facebook.com/joao.enriquesantosalves/">
-                          <img class="links" src="Imagens/Facebook.jpg" alt="Facebook João Enrique" title="Facebook João Enrique" height=30/>
+                          <img class="links" src="Imagens/Facebook.jpg" height=30/>
                           Facebook
                       </a><br/>
       
                       <a class="link" href="https://www.Linkedin.com/in/joãoenrique">
-                          <img class="links" src="Imagens/Linkedin.png" alt="Linkedin João Enrique" title="Linkedin João Enrique" height=30/>
+                          <img class="links" src="Imagens/linkedin.png" height=30/>
                           Linkedin
                       </a><br/>
       
                       <a class="link" href="mailto:jebsantosalves@gmail.com?&body=Nome          assunto:">
-                          <img class="links" src="Imagens/Email.webp" alt="Enviar Email" title="Enviar Email" height=30/>
+                          <img class="links" src="Imagens/Email.webp" height=30/>
                           Email
                       </a><br/>
       
                       <a class="link" href="https://www.Twitter.com/joao.enriquesantosalves/">
-                          <img class="links" src="Imagens/Twitter.jpg" alt="Twitter João Enrique" title="Twitter João Enrique" height=30/>
+                          <img class="links" src="Imagens/Twitter.jpg" height=30/>
                           Twitter
                       </a><br/>
       
                       <a class="link" href="https://www.Twitter.com/joao.enriquesantosalves/">
-                          <img class="links" src="Imagens/Google.jpg" alt="Twitter João Enrique" title="Twitter João Enrique" height=30/>
+                          <img class="links" src="Imagens/Google.jpg" height=30/>
                           Portifolio
                       </a><br/>
                   </p><br/>
@@ -489,7 +515,13 @@
 
 <!--QUINTA PÁGINA (CONTATO)-->
               <div class="contato" id="section5"><!---PÁGINA DE CONTATO--->
-                  <h3 class="super-titulo">Contato</h3>
+                  <h3 class="super-titulo"> <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg> Contato <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg></h3>
       
                   <p class="text">
                       Qualquer dúvida, crítica ou sugestão por favor <a class="link" href="mailto:jebsantosalves@gmail.com?subject=JEB Tech&body=Nome:    Email:
@@ -550,7 +582,7 @@
                                   </div>
                               </div>
                           </div>
-                           <button class="enviar-form" type="submit" data-toggle="modal" data-target="#myModal">Enviar</button><!---BOTÃO DE ENVIAR--->
+                           <button class="enviar-form disabled" type="submit" data-toggle="modal" data-target="#myModal">Enviar</button><!---BOTÃO DE ENVIAR--->
                       </form>
       
                       <!---SCRIPT PARA MENSAGEM DE ERRO E VALIDAÇÃO DO FORMULARIO--->
@@ -581,11 +613,17 @@
 
 
 <!--SEXTA PÁGINA (CERTIFICADOS)-->     
-              <div class="contato" id="section5"><!---PÁGINA DE CONTATO--->
-                  <h3 class="super-titulo">Certificados</h3>
+              <div class="certificados" id="section5"><!---PÁGINA DE CONTATO--->
+                  <h3 class="super-titulo"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                  </svg> Certificados <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                  </svg></h3>
       
                   <p class="text">
-                      Sempre participei de projetos e fiz cursos. Tenho 23 certificados.
+                      Sempre participei de projetos e fiz cursos. Tenho 12 certificados.
                   </p>
 
             
@@ -722,8 +760,7 @@
                     </div>
                   </div>
 
-                  
-                </div>
+                </div><!--BOTÃO DO CARROUSEL-->
                 <!--/.Second slide-->
                 <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -735,7 +772,90 @@
                 </a>
               </div>
             </div>
-          </div> 
+
+            <div class="container mb-5">
+              <div class="row">
+                <button data-toggle="modal" data-target="#Baixar" role="button" class="btn container baixar btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                </svg> Baixar Certificados</button>
+                </div> 
+          </div>
+
+          <div class="accordion" id="accordionExample">
+           
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0 text-certificado">
+                  <button class="btn btn-link text-certificado collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Ver mais certificados <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                      <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                      <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                    </svg>
+                  </button>
+                </h5>
+
+              </div><!--CERTIFICADOS ESCONDIDOS-->
+              <div id="collapseTwo" class="collapse mt-5" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+
+                  <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                      <img class="card-img-top"
+                        src="Certificados/Certificado 11.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">BNE Imprensa Jovem.</h4>
+                        <h6 class="card-subtitle mb-2">EMEF Dr. João Augusto Breves</h6>
+                        <p class="card-text">Certificado por participação de março à dezembro no projeto BNE Imprensa Jovem.</p>
+                        <buttom class="btn enviar" data-toggle="modal" data-target="#Design" role="button">Abrir</buttom>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                      <img class="card-img-top"
+                        src="Certificados/Certificado 12.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">BNE Imprensa Jovem.</h4>
+                        <h6 class="card-subtitle mb-2">EMEF Dr. João Augusto Breves</h6>
+                        <p class="card-text">Certificado por participação de março à dezembro no projeto BNE Imprensa Jovem.</p>
+                        <buttom class="btn enviar" data-toggle="modal" data-target="#Design" role="button">Abrir</buttom>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                      <img class="card-img-top"
+                        src="Certificados/Certificado 13.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">BNE Imprensa Jovem.</h4>
+                        <h6 class="card-subtitle mb-2">EMEF Dr. João Augusto Breves</h6>
+                        <p class="card-text">Certificado por participação de março à dezembro no projeto BNE Imprensa Jovem.</p>
+                        <buttom class="btn enviar" data-toggle="modal" data-target="#Design" role="button">Abrir</buttom>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                      <img class="card-img-top"
+                        src="Certificados/Certificado 14.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">BNE Imprensa Jovem.</h4>
+                        <h6 class="card-subtitle mb-2">EMEF Dr. João Augusto Breves</h6>
+                        <p class="card-text">Certificado por participação de março à dezembro no projeto BNE Imprensa Jovem.</p>
+                        <buttom class="btn enviar" data-toggle="modal" data-target="#Design" role="button">Abrir</buttom>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+      </div> 
   <br/><br/><br/><br/>
               
           <!--Carousel Wrapper-->
@@ -752,30 +872,34 @@
           <footer class="text-muted"><!--Fim-->
             <a class="name" href="https://www.facebook.com/JebTech21/">João Enrique</a> <br/>
 
-      
+            <a class="link" href="https://github.com/JoaoEnrique" target="_blank">
+              <img class="links" src="Imagens/github.png" height=30/>
+           </a> 
+
             <a class="link" href="https://www.facebook.com/joao.enriquesantosalves/" target="_blank">
-                <img class="links" src="Imagens/Facebook.jpg" alt="Facebook João Enrique" title="Facebook João Enrique" height=30/>
+                <img class="links" src="Imagens/Facebook.jpg" height=30/>
             </a>
 
             <a class="link" href="https://www.instagram.com/joao.enriquesantosalves/" target="_blank">
-                <img class="links" src="Imagens/Instagram.jpg" alt="Instagram João Enrique" title="Instagram João Enrique" height=30/>
+                <img class="links" src="Imagens/Instagram.jpg" height=30/>
             </a>
 
             <a class="link" href="https://www.Twitter.com/joao.enriquesantosalves/"> 
-                <img class="links" src="Imagens/Twitter.jpg" alt="Twitter João Enrique" title="Twitter João Enrique" height=30/>
+                <img class="links" src="Imagens/Twitter.jpg" height=30/>
             </a>
 
             <a class="link" href="">
-                <img class="links" src="Imagens/Google.jpg" alt="portifolio João Enrique" title="Portifolio João Enrique" height=30/>
+                <img class="links" src="Imagens/Google.jpg" height=30/>
             </a> 
 
-            <a class="link" href="https://www.Linkedin.com/in/joãoenrique" target="_blank">
-                <img class="links" src="Imagens/Linkedin.png" alt="Linkedin João Enrique" title="Linkedin João Enrique" height=30/>
+            <a class="link" href="https://www.linkedin.com/in/joãoenrique" target="_blank">
+                <img class="links" src="Imagens/Linkedin.png" height=30/>
             </a>
             
-            <a class="link" href="mailto:jebsantosalves@gmail.com?&body=Nome          assunto:" target="_blank">
-                <img class="links" src="Imagens/Email.webp" alt="Enviar Email" title="Enviar Email" height=30/>
+            <a class="link" href="mailto:jebsantosalves@gmail.com?&body=Nome:" target="_blank">
+                <img class="links" src="Imagens/Email.webp" height=30/>
             </a> 
+  
         </footer>
 
 <!--MODALS DA PÁGINA-->
@@ -854,7 +978,7 @@
         </button>
       </div>
       <div class="modal-body">
-        Tenho esperiencias com Desing Gráfico. Fazemos protótipos das páginas antes de programar.
+        Tenho esperiencias com Desing Gráfico. Fazemos protótipos, layouts e banners para as páginas antes de programar.
         <img src="Imagens/Design Grafico.png" alt="HTML/CSS" style="width: 100%;">
       </div>
       <div class="modal-footer">
@@ -901,9 +1025,8 @@
             <path d="M8.5 9.438V8.5h-1v.938a1 1 0 0 1-.03.243l-.4 1.598.93.62.93-.62-.4-1.598a1 1 0 0 1-.03-.243z"/>
             <path d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm2.5 8.5v.938l-.4 1.599a1 1 0 0 0 .416 1.074l.93.62a1 1 0 0 0 1.109 0l.93-.62a1 1 0 0 0 .415-1.074l-.4-1.599V8.5a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1zm1-5.5h-1v1h1v1h-1v1h1v1H9V6H8V5h1V4H8V3h1V2H8V1H6.5v1h1v1z"/>
           </svg>Baixar em zip</a>
-          <a class="btn baixar" download="Certificados/Certificados.rar" href="Certificados/Certificados.rar" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-zip-fill" viewBox="0 0 16 16">
-            <path d="M8.5 9.438V8.5h-1v.938a1 1 0 0 1-.03.243l-.4 1.598.93.62.93-.62-.4-1.598a1 1 0 0 1-.03-.243z"/>
-            <path d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm2.5 8.5v.938l-.4 1.599a1 1 0 0 0 .416 1.074l.93.62a1 1 0 0 0 1.109 0l.93-.62a1 1 0 0 0 .415-1.074l-.4-1.599V8.5a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1zm1-5.5h-1v1h1v1h-1v1h1v1H9V6H8V5h1V4H8V3h1V2H8V1H6.5v1h1v1z"/>
+          <a class="btn baixar" download="Certificados/Certificados.rar" href="Certificados/Certificados.rar" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+            <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
           </svg> Baixar em rar</a>
       </div>
       <div class="modal-footer">
@@ -917,6 +1040,6 @@
 
 
 
-<!--MODALS CERTFICADOS--> 
+<!--MODALS CERTFICADOS-->
         <body>
 </html>
