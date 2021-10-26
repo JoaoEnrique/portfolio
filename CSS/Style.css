@@ -1,0 +1,675 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#info {
+  position: absolute;
+  left: 5%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato';
+  text-align: center;
+  overflow-x: hidden;
+}
+             
+.corpo/*Corpo fundo azul rgb(243, 247, 252)*/
+{ 
+    font-family: Helvetica;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
+} 
+                               
+.começo/*Parte azul do começo*/
+{  
+text-shadow: 1px -1px #000;
+}
+                        
+.Div-Nome
+{
+    line-height: 10%;                
+    align-items: center;
+    text-align: center;
+
+}
+        
+.name/*deixar o logo JEB TECH com efeito*/
+{
+  text-decoration: none;
+  line-height:60px;
+  margin-top:10px;
+  padding-top:10px;
+  background-color: white;
+  font-weight: 700;
+  background-image: linear-gradient(-75deg, transparent 0, transparent 5%, #002060 5%, rgba(255,255,255,0.5) 10%, transparent 10%, transparent 100%);
+  background-size: 200% 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: shine 3s ease-in-out infinite;
+  transition: 1s;
+  padding-bottom: -10px;
+}
+                  
+@keyframes shine 
+{
+  0% { background-position: 0%; }
+  100% { background-position: -120%; }
+}
+    
+.name:hover, .Nome-Credito:hover/*Nome*/
+{
+    text-shadow: 0px -70px 2px aqua;
+    opacity: 0.75;
+} 
+
+    
+.text/*paragrafos*/
+{
+    text-align: justify;
+    line-height: 32px;
+    font-size: 22px;
+    padding-top: 0%;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+    color: rgb(80, 80, 80)
+}
+    
+.link-3/*Links da curriculo*/
+{
+    line-height: 40px;
+    color: #002060;
+    font-weight: bold;
+}
+
+.link-3:hover/*Links do curriculo*/
+{
+    text-decoration: dashed;
+    color: aqua;
+    opacity: 0.75;
+}
+
+nav
+{/*Menu antes de descer a página*/
+    transition: 0.5s linear;
+    background: transparent!important;
+    font-weight: 700;
+    color: #fff!important;
+}
+
+.teste2
+{/*Menu depois de descer a página*/
+    transition: 0.5s linear;
+    background: #002060 !important;
+}
+
+
+
+.link-2/*Links da pagina link*/
+{
+    line-height: 40px;
+    color: #002060;
+    font-weight: bold;
+}
+
+.link-2:hover
+{
+    text-decoration: dashed;
+    color: #002060be;
+}
+
+.link-2:hover img.links
+{
+    filter: invert(100%)!important;
+    box-shadow: none!important;
+}
+
+
+a.link /*links*/
+{
+    padding: none;
+    font-weight: bold; 
+    color: #002060;
+    text-decoration: underline dotted #002060; 
+}
+    
+a.link:hover img.links
+{
+    filter: invert(100%)!important;
+    box-shadow: none!important;
+}
+
+a.link:hover /*links*/
+{
+    color: aqua;
+    text-decoration: none;
+}
+    
+.credito /*Div azul no final*/ 
+{
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #002060;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: -1%;
+}      
+                
+.name
+{
+    font-family: Rockwell;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.titulo{
+    font-family: Calibri;
+    color: #00af;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+}
+
+.super-titulo
+{
+    margin-top: 50px;
+    color:#002060;
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 25px;
+}  
+
+button
+{
+    margin-top: 20px!important;
+}
+
+/* MENU DE NAVEGACAO*/
+
+
+.navbar
+{
+  padding: 100px;
+}
+
+.dropdown-item
+{/*Menu*/
+    font-weight: 500!important;
+}
+/*MENU DE NAVEGACAO*/
+
+
+.Nome-Credito
+{
+    font-family: Rockwell;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 1s;
+    transform:scale(1.1);
+}
+
+.Sub-Titulo
+{
+    color: #002060;
+    font-weight: bold;
+}
+
+.destaque{/*texto em destaque*/
+    text-decoration: none;
+    color: #002060d3;
+    font-weight: bold;
+        
+}
+
+#Li-Link{
+    display: block !important;
+}
+    
+img.links{/*Deixar logo branco*/
+    transition: transform 1s;
+    background: #fff;
+    box-shadow: -4px 5px 0px 0px aqua;
+    margin: 5px;
+    background: #fff;
+}
+    
+img.links:hover{/*Deixar logo branco*/
+    filter: invert(100%);
+    transform: translateY(-10px);
+    box-shadow: -4px 5px 0px 0px red;
+}
+ 
+.baixar
+{
+    padding: 10px!important;
+    background: #002060;
+    color: #fff;
+    transition: 3s;
+}
+
+.baixar:hover
+{
+    background: #00206000;
+    color: #002060;
+    box-shadow: 7px 2px aqua;
+}
+
+.baixar-Certificado/*Botão de baixar o certificado*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: c; 
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.baixar-Certificado:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.Efeito-Imagem/**/
+{
+    transition: -webkit-transform 1s;
+}
+
+img.Efeito-Imagem:hover/*Somente  em imagens  hover*/
+{
+    filter: brightness(1.4);
+    transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+.Efeito-Imagem:hover/*Efeitos no certificado em PDF*/
+{
+    cursor: zoom-in;
+    transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 4px #002060a8;
+}
+
+textarea/*Campo de mensagem da pagina contato*/
+{
+    resize: none!important;
+    height: 213px!important;
+}
+
+.enviar/*botao de ver mais experiencias*/
+{
+    background-color:  #00AF;
+    color: white;
+    box-shadow: 7px 5px 0px 0px #000;
+}
+
+.enviar-form/*Botao de enviar no formulario*/
+{
+    display: block;
+    background-color: #00AF;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 7px 5px 0px 0px #000;
+    margin-bottom: 30px;
+}
+        
+.enviar:hover, .enviar-form:hover
+{
+    background: #000;
+    box-shadow: 7px 5px 0px 0px #00AF;
+    color: #fff;         
+}
+        
+.red{/*texto em vermelho*/
+    color: red;
+}
+.borda{
+    border:1px solid rgb(0, 0, 255);
+    padding: 1px;
+    background-color: #fff;
+}
+
+.Foto-Joao{/*Foto da página index*/
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    margin-right: 25px;
+    border-radius: 200px;
+    border-top: 200px;
+}
+
+.Foto-Joao:hover{/*Aplicar efeito na imagem*/
+     filter: blur(1px);
+}
+
+*::selection, p::selection, w::selection, a::selection, img::selection, .sub-titulo, .titulo::selection 
+{/*Seleção de texto e imagem*/
+    background-color: #FFF;
+    color:#fff;
+    background: #00AF;
+}
+
+.HTML-css/*Imagem HTML*/
+{
+    box-shadow:0px 0px 15px rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 8px groove rgb(0, 0, 255);
+    margin: 10px;
+}
+ 
+.Menu/*Memu para celular*/
+{
+    filter: invert(100%);
+}
+
+#none-PC
+{
+    display: none;
+}
+
+ 
+.sobre
+{
+    padding-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.curriculum, .contato, .experiencia, div.link, .certificado, .corpo /*paginas*/
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+header{
+  display: flex!important;
+  align-items: center!important;
+  min-height: 100vh;
+  color: #fff;
+  padding: 4rem 2rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Fundo.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+
+section{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 8%;
+  font-size: 22px;
+  line-height: 42px;
+  color: rgb(80,80,80);
+}
+
+footer{
+  font-size: 42px;
+  color: white;
+  background-color: #002060;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 4px -20px 20px 20px #002060;
+}
+
+.carousel-control-next, .carousel-control-prev /*Carrousel com */
+{
+    background: rgb(0, 0, 0);
+    width: 5%!important;
+}
+
+.descer svg
+{
+  animation: go-back 1s infinite alternate-reverse;
+  animation-timing-function: ease-in-out!important;
+  animation-fill-mode: both;
+  color: rgba(255, 255, 255, 0.637)!important;
+}
+
+@keyframes go-back {
+  from {
+    transform: translatey(-50px);
+  }
+  to {
+    transform: translatey(0);
+  }
+}
+
+
+/**TOOLIP**/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.descer:hover svg:hover
+{
+  color: rgba(255, 255, 255)!important;
+}
+
+button.botao-green:hover
+{
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border-color: #28a745;
+}
+
+a{
+    color: none;
+}
+
+button.botao-blue:hover
+{
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+}
+
+button.botao-black:hover
+{
+  color: rgba(255, 255, 255, 0.63);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgba(255, 255, 255, 0.63);
+}
+
+button.botao-red:hover
+{
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+}
+
+.descer
+{
+  bottom: 0;
+  left: 50%;
+  margin-top: 90vh;
+  display: block;
+  position: absolute;
+}
+/*RESPONSIVIDADE*/
+
+.dropdown-item
+{/*Menu*/
+    font-weight: 500!important;
+}
+
+.dropdown-item:hover, .dropdown-item.active, .dropdown-item:active, .exampleFormControlSelect1:hover
+{/*Menu*/
+    background: #002060!important;
+    color: #fff!important;
+}
+
+.curriculum, .contato, .experiencia, div.link, .certificado, .corpo /*paginas*/
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.experiencia, .contato, .sobre
+{
+    background-color: rgb(243, 247, 252);/*Azul do Fundo*/
+}
+
+.curriculum, .certificados
+{
+    background-color: #FFF;
+}
+
+.text-certificado
+{
+    color: #002060!important;
+    font-weight: 700!important;
+    text-decoration: none!important;
+}
+
+.text-certificado:hover
+{
+    text-decoration: underline!important;
+}
+
+
+
+/*----------- EFEITO APARECER -----------*/
+.esquerda{
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.direita{
+    transform: translateX(50%);
+    opacity: 0;
+}
+.baixo{
+    transform: translateY(50%);
+    opacity: 0;
+}
+
+.efeitoScroll{
+    transform: translate(0,0) !important;
+    opacity: 1 !important;
+    transition: all 1.5s ease-in-out;
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+
+@media screen and (max-width: 900px)/*ADAPTAÃ‡ÃƒO PARA DISPOSITIVOS*/
+{
+    svg
+    {
+        width: 40px!important;
+    }
+    .text/*paragrafos*/
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .Foto-Joao/*Foto da página index*/
+    {
+        width: 150px
+    }
+    
+    .name/*deixar o logo JEB TECH com efeito*/
+    {
+        font-family: Rockwell;
+        font-size: 35px;
+    }
+    
+    .super-titulo
+    {
+        margin: 0;
+        font-size: 40px;
+    }
+    
+    .HTML-css
+    {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .começo
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    #certificado
+    {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .baixar
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
