@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    min-height: 100vh;
+}
+
+nav{
+    background: #002060;
+    min-height: 40px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.items>ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.items> button{
+    display: none;
+}
+
+.menu-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-menu{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.link-menu:hover{
+    opacity: .7;
+}
+
+footer{
+    background: #002060;
+    color: #fff;
+    min-height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.main-login{
+    display: grid;
+    place-items: center;
+    min-height: 100vh!important;
+    background-image: url('/img/img-etec.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: background-animation 15s alternate infinite;
+    position: absolute;
+    min-width: 100%!important;
+}
+
+
+@keyframes background-animation {
+    0%, 100%{
+        transform: scale(1);
+    }
+
+    40%, 60%{
+        transform: scale(1.1);
+    }
+}
+
+.form-login{
+    border: 1px solid #ccc;
+    padding: 20px 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffffc4;
+}
+
+.form-login .form-group{
+    padding: 20px 20px;
+    display: flex;
+}
+
+.select-login, .input-login{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.form-login h1{
+    text-align: center;
+}
+
+.form-login .col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+
+.btn{
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+.btn-entrar{
+    background: #002060;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form-group .links-form{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+
+.container{
+    padding: 50px 55px;
+}
+
+.info-aluno{
+    border: 1px solid #ccc;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.info-aluno h5{
+    text-align: center;
+
+}
+
+.img-info-aluno{
+    width: 150px;
+}
+
+.div-img-aluno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-aluno .row{
+    margin-top: 20px;
+}
+
+
+
+.btn-alterar-foto{
+    width: 100%;
+    background: #002060;
+    color: #fff;
+}
+
+.div-text-info{
+    padding: 40px 20px;
+    font-size: 15px;
+}
+
+
+.col-info-nsa{
+    width: 100%;
+    min-height: 610px;
+}
+
+.info-nsa, .info-boletim{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    min-height: 610px;
+}
+
+div.info-esquerda{
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+}
+
+
+div.info-direita{
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+div.info-esquerda p{
+    font-size: 15px;
+}
+
+
+table th{
+    background: #ccc;
+    padding: 5px;
+    min-width: 60px;
+}
+
+table td{
+    background: #f8f8f8;
+    padding: 10px 5px;
+    border-top: 1px solid #ccc;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+tr{
+    
+    position:sticky;
+    z-index: 1;
+}
+
+.tb-boletim tr:hover  td{
+    background: #B0E2FF!important;
+}
+
+.table-title{
+    font-size: 12px;
+}
+
+.table-text, .table-text-nota{
+    font-size: 12px;
+    text-align: center;
+}
+
+.table-text-nota{
+    color: blue;
+    text-decoration: underline;
+}
+
+.line{
+    background: #ccc;
+    height: 5px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    .row{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+
+    .container{
+        padding: 10px;
+    }
+
+    .info-aluno, .col-aluno{
+        width: 100%;
+        margin: 0;
+    }
+
+    .div-table{
+        overflow: auto;
+    }
+
+    div.info-esquerda{
+        width: 330px;
+        margin: 0 10px;
+    }
+
+    div.info-direita{
+        width: 330px;
+        margin: 0 10px;
+    }
+
+    .tb-boletim{
+        width: 100px;
+    }
+
+    nav, .container, table{
+        overflow: auto!important;
+    }
+
+    .items>ul{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        background: #002060;
+        flex-wrap: wrap;
+        z-index: 2!important;
+        transition: 0.5s;
+    }
+
+    .items>ul li{
+        width: 100%;
+    }
+
+    .items>ul li a{
+        padding: 20px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .items> button{
+        display: block;
+        background: transparent;
+        border: 0;
+        color: #fff;
+    }
+}

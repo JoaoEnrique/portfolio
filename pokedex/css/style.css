@@ -1,0 +1,115 @@
+body{
+    /* background: #f   0f2f5; */
+    background: #92b2f1;
+}
+
+.wrapper{
+    max-width: 1024px;
+    min-height: 100vh;
+    width: 100%;
+
+    margin: 48px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-container{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 24px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    background: #dee8ff;
+    border-radius: 4px;
+    box-shadow: 5px 5px 4px 1px #00000088;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+    background-image: url("../assets/pokeball.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50px -30px;
+}
+
+.card:hover{
+    transform: rotate(20deg) scale(1.1);
+}
+
+.card .sprite{
+    width: 100%;
+    image-rendering: pixelated;
+}
+
+.card .name{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+footer{
+    background: #b3c9f8;
+    color: #002060!important;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.pagination{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.pagination button{
+    padding: 12px 16px;
+    background: #002060;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.pagination button:hover{
+    opacity: .8;
+}
+
+.page-indext{
+    text-align: center;
+    width: 28px;
+    font-size: 20px;
+}
+
+.hidden{
+    display: none!important;
+}
+
+
+.pagination .spinner{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 3px solid #002060;
+    border-bottom-color: transparent;
+    animation: spinner .5s linear infinite;
+}
+
+@keyframes spinner {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
